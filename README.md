@@ -7,7 +7,7 @@
 
 ## Agenda
 - Installation et Intro - 15 mins
-- Création de VM et de template - 10 mins
+- Création de VM avec template custom - 10 mins
 - Création d'une VIP Metal LB - 10 mins
 - Mise en place de VLAN externe - 10 mins
 - Backup restore avec Veeam Kasten - 15 mins
