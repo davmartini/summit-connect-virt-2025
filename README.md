@@ -3,4 +3,14 @@
 ## Infos pratiques
 - Lab : Les VM passent en mode cloud-native avec OpenShift Virtualization
 - Horaires : de 14:00 à 16:30
-- 33 participants 
+- Participants : 33
+
+## Agenda
+- Installation et Intro - 15 mins
+- Création de VM et de template - 10 mins
+- Création d'une VIP Metal LB - 10 mins
+- Mise en place de VLAN externe - 10 mins
+- Backup restore avec Veeam Kasten - 15 mins
+- Load Aware Cluster Rebalancing - 15 mins
+- VM Restart after node failure - 15 mins
+- Outro and next step - 5 mins
