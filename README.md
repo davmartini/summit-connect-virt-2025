@@ -9,9 +9,8 @@
 - Installation et Intro - 15 mins - Not Ready
 - Création de VM avec template custom - 10 mins - Ready
 - Mise en place de VLAN externe - 10 mins - Not Ready
-- Création d'une VIP Metal LB - 10 mins - Not Ready
-- Load Aware Cluster Rebalancing - 10 mins - Not Ready
-- VM Restart after node failure - 15 mins - Not Ready
+- Création d'une VIP Metal LB - 15 mins - Not Ready
+- Load Aware Cluster Rebalancing - 15 mins - Not Ready- Not Ready
 - Backup restore avec Veeam Kasten - 15 mins - Not Ready
 - Outro and next step - 5 mins - Not Ready
 
