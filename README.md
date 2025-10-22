@@ -8,6 +8,8 @@
 ## Agenda
 - Installation et Intro - 15 mins
 - Création de VM avec template custom - 10 mins
+https://docs.redhat.com/en/documentation/openshift_container_platform/4.19/html/virtualization/creating-a-virtual-machine#virt-creating-template_virt-creating-vms-from-templates
+
 - Création d'une VIP Metal LB - 10 mins
 - Mise en place de VLAN externe - 10 mins
 - Backup restore avec Veeam Kasten - 15 mins
