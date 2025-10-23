@@ -3,7 +3,7 @@
 ## Infos pratiques
 - Lab : Les VM passent en mode cloud-native avec OpenShift Virtualization
 - Horaires : de 14:00 à 15:30
-- Participants : 33
+- Participants : 40
 
 ## Agenda
 - Installation et Intro - 15 mins - Not Ready
