@@ -10,7 +10,7 @@
 - Création et configuration de VM - 10 mins - Ready
 - Création d'un template de VM - 10 mins - Ready
 - Mise en place de VLAN externe - 10 mins - Not Ready
-- Création d'une VIP Metal LB - 10 mins - Not Ready
+- Microsegmentation UDN & Network Policies - 10 - Not Ready
 - Load Aware Cluster Rebalancing - 15 mins - Ready
 - Backup restore avec Veeam Kasten - 15 mins - Not Ready
 - Outro and next step - 5 mins - Not Ready
