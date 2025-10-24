@@ -15,5 +15,13 @@
 - Backup restore avec Veeam Kasten - 15 mins - Not Ready
 - Outro and next step - 5 mins - Not Ready
 
+## To DO
+- Remplacer la partie MetalLB par UDN
+- Update de la doc avec la partie micro-seg avec les multi-netpol
+- Automatiser les différentes étapes de proviosnning
+  * Création des 40 users/password
+  * Upgrade le cluster de 4.18 à 4.19
+  * Installation de l'operator Terminal/MTV/Kasten
+
 ## Lab Instructions
 https://epietry.github.io/openshift-virt-lab-05-11-2025/
