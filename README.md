@@ -24,6 +24,13 @@
   * Installation des operateurs Terminal/MTV/Kasten
   * Création d'un bucket S3 pour Kasten
   * Déploiment de Kasten en mode token pour l'auth
+ 
+## To Do le jour J
+- Déploiement du cluster (2h)
+- Upgrade du cluster de 4.18 en 4.19 (1h)
+- Installation de l'operateur GitOps
+- Déploiement du reste via GitOps
+- Configuration du S3 dans Kasten 
 
 ## Lab Instructions
 https://epietry.github.io/openshift-virt-lab-05-11-2025/
