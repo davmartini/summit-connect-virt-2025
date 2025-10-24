@@ -15,7 +15,7 @@
 - Backup restore avec Veeam Kasten - 15 mins - Not Ready
 - Outro and next step - 5 mins - Not Ready
 
-## To DO
+## To Do
 - Remplacer la partie MetalLB par UDN
 - Update de la doc avec la partie micro-seg avec les multi-netpol
 - Automatiser les différentes étapes de proviosnning
