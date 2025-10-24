@@ -19,9 +19,11 @@
 - Remplacer la partie MetalLB par UDN
 - Update de la doc avec la partie micro-seg avec les multi-netpol
 - Automatiser les différentes étapes de proviosnning
-  * Création des 40 users/password
+  * Création des 40 users/password via htpasswd
   * Upgrade le cluster de 4.18 à 4.19
-  * Installation de l'operator Terminal/MTV/Kasten
+  * Installation des operateurs Terminal/MTV/Kasten
+  * Création d'un bucket S3 pour Kasten
+  * Déploiment de Kasten en mode token pour l'auth
 
 ## Lab Instructions
 https://epietry.github.io/openshift-virt-lab-05-11-2025/
