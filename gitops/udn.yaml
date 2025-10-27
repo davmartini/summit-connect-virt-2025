@@ -2,7 +2,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-1
-  namespace: project-1
+  namespace: udn-project-1
 spec:
   topology: Layer2
   layer2:
@@ -17,7 +17,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-2
-  namespace: project-2
+  namespace: udn-project-2
 spec:
   topology: Layer2
   layer2:
@@ -32,7 +32,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-3
-  namespace: project-3
+  namespace: udn-project-3
 spec:
   topology: Layer2
   layer2:
@@ -47,7 +47,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-4
-  namespace: project-4
+  namespace: udn-project-4
 spec:
   topology: Layer2
   layer2:
@@ -62,7 +62,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-5
-  namespace: project-5
+  namespace: udn-project-5
 spec:
   topology: Layer2
   layer2:
@@ -77,7 +77,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-6
-  namespace: project-6
+  namespace: udn-project-6
 spec:
   topology: Layer2
   layer2:
@@ -92,7 +92,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-7
-  namespace: project-7
+  namespace: udn-project-7
 spec:
   topology: Layer2
   layer2:
@@ -107,7 +107,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-8
-  namespace: project-8
+  namespace: udn-project-8
 spec:
   topology: Layer2
   layer2:
@@ -122,7 +122,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-9
-  namespace: project-9
+  namespace: udn-project-9
 spec:
   topology: Layer2
   layer2:
@@ -137,7 +137,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-10
-  namespace: project-10
+  namespace: udn-project-10
 spec:
   topology: Layer2
   layer2:
@@ -152,7 +152,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-11
-  namespace: project-11
+  namespace: udn-project-11
 spec:
   topology: Layer2
   layer2:
@@ -167,7 +167,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-12
-  namespace: project-12
+  namespace: udn-project-12
 spec:
   topology: Layer2
   layer2:
@@ -182,7 +182,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-13
-  namespace: project-13
+  namespace: udn-project-13
 spec:
   topology: Layer2
   layer2:
@@ -197,7 +197,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-14
-  namespace: project-14
+  namespace: udn-project-14
 spec:
   topology: Layer2
   layer2:
@@ -212,7 +212,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-15
-  namespace: project-15
+  namespace: udn-project-15
 spec:
   topology: Layer2
   layer2:
@@ -227,7 +227,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-16
-  namespace: project-16
+  namespace: udn-project-16
 spec:
   topology: Layer2
   layer2:
@@ -242,7 +242,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-17
-  namespace: project-17
+  namespace: udn-project-17
 spec:
   topology: Layer2
   layer2:
@@ -257,7 +257,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-18
-  namespace: project-18
+  namespace: udn-project-18
 spec:
   topology: Layer2
   layer2:
@@ -272,7 +272,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-19
-  namespace: project-19
+  namespace: udn-project-19
 spec:
   topology: Layer2
   layer2:
@@ -287,7 +287,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-20
-  namespace: project-20
+  namespace: udn-project-20
 spec:
   topology: Layer2
   layer2:
@@ -302,7 +302,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-21
-  namespace: project-21
+  namespace: udn-project-21
 spec:
   topology: Layer2
   layer2:
@@ -317,7 +317,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-22
-  namespace: project-22
+  namespace: udn-project-22
 spec:
   topology: Layer2
   layer2:
@@ -332,7 +332,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-23
-  namespace: project-23
+  namespace: udn-project-23
 spec:
   topology: Layer2
   layer2:
@@ -347,7 +347,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-24
-  namespace: project-24
+  namespace: udn-project-24
 spec:
   topology: Layer2
   layer2:
@@ -362,7 +362,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-25
-  namespace: project-25
+  namespace: udn-project-25
 spec:
   topology: Layer2
   layer2:
@@ -377,7 +377,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-26
-  namespace: project-26
+  namespace: udn-project-26
 spec:
   topology: Layer2
   layer2:
@@ -392,7 +392,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-27
-  namespace: project-27
+  namespace: udn-project-27
 spec:
   topology: Layer2
   layer2:
@@ -407,7 +407,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-28
-  namespace: project-28
+  namespace: udn-project-28
 spec:
   topology: Layer2
   layer2:
@@ -422,7 +422,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-29
-  namespace: project-29
+  namespace: udn-project-29
 spec:
   topology: Layer2
   layer2:
@@ -437,7 +437,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-30
-  namespace: project-30
+  namespace: udn-project-30
 spec:
   topology: Layer2
   layer2:
@@ -452,7 +452,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-31
-  namespace: project-31
+  namespace: udn-project-31
 spec:
   topology: Layer2
   layer2:
@@ -467,7 +467,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-32
-  namespace: project-32
+  namespace: udn-project-32
 spec:
   topology: Layer2
   layer2:
@@ -482,7 +482,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-33
-  namespace: project-33
+  namespace: udn-project-33
 spec:
   topology: Layer2
   layer2:
@@ -497,7 +497,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-34
-  namespace: project-34
+  namespace: udn-project-34
 spec:
   topology: Layer2
   layer2:
@@ -512,7 +512,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-35
-  namespace: project-35
+  namespace: udn-project-35
 spec:
   topology: Layer2
   layer2:
@@ -527,7 +527,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-36
-  namespace: project-36
+  namespace: udn-project-36
 spec:
   topology: Layer2
   layer2:
@@ -542,7 +542,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-37
-  namespace: project-37
+  namespace: udn-project-37
 spec:
   topology: Layer2
   layer2:
@@ -557,7 +557,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-38
-  namespace: project-38
+  namespace: udn-project-38
 spec:
   topology: Layer2
   layer2:
@@ -572,7 +572,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-39
-  namespace: project-39
+  namespace: udn-project-39
 spec:
   topology: Layer2
   layer2:
@@ -587,7 +587,7 @@ apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
   name: udn-project-40
-  namespace: project-40
+  namespace: udn-project-40
 spec:
   topology: Layer2
   layer2:

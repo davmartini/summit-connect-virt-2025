@@ -1,0 +1,599 @@
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user1-udn-project1
+  namespace: udn-project-1
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user1
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user2-udn-project2
+  namespace: udn-project-2
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user2
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user3-udn-project3
+  namespace: udn-project-3
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user3
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user4-udn-project4
+  namespace: udn-project-4
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user4
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user5-udn-project5
+  namespace: udn-project-5
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user5
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user6-udn-project6
+  namespace: udn-project-6
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user6
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user7-udn-project7
+  namespace: udn-project-7
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user7
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user8-udn-project8
+  namespace: udn-project-8
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user8
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user9-udn-project9
+  namespace: udn-project-9
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user9
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user10-udn-project10
+  namespace: udn-project-10
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user10
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user11-udn-project11
+  namespace: udn-project-11
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user11
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user12-udn-project12
+  namespace: udn-project-12
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user12
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user13-udn-project13
+  namespace: udn-project-13
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user13
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user14-udn-project14
+  namespace: udn-project-14
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user14
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user15-udn-project15
+  namespace: udn-project-15
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user15
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user16-udn-project16
+  namespace: udn-project-16
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user16
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user17-udn-project17
+  namespace: udn-project-17
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user17
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user18-udn-project18
+  namespace: udn-project-18
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user18
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user19-udn-project19
+  namespace: udn-project-19
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user19
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user20-udn-project20
+  namespace: udn-project-20
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user20
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user21-udn-project21
+  namespace: udn-project-21
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user21
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user22-udn-project22
+  namespace: udn-project-22
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user22
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user23-udn-project23
+  namespace: udn-project-23
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user23
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user24-udn-project24
+  namespace: udn-project-24
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user24
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user25-udn-project25
+  namespace: udn-project-25
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user25
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user26-udn-project26
+  namespace: udn-project-26
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user26
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user27-udn-project27
+  namespace: udn-project-27
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user27
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user28-udn-project28
+  namespace: udn-project-28
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user28
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user29-udn-project29
+  namespace: udn-project-29
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user29
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user30-udn-project30
+  namespace: udn-project-30
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user30
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user31-udn-project31
+  namespace: udn-project-31
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user31
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user32-udn-project32
+  namespace: udn-project-32
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user32
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user33-udn-project33
+  namespace: udn-project-33
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user33
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user34-udn-project34
+  namespace: udn-project-34
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user34
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user35-udn-project35
+  namespace: udn-project-35
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user35
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user36-udn-project36
+  namespace: udn-project-36
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user36
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user37-udn-project37
+  namespace: udn-project-37
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user37
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user38-udn-project38
+  namespace: udn-project-38
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user38
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user39-udn-project39
+  namespace: udn-project-39
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user39
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---
+
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: user40-udn-project40
+  namespace: udn-project-40
+subjects:
+  - kind: User
+    apiGroup: rbac.authorization.k8s.io
+    name: user40
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: admin
+---

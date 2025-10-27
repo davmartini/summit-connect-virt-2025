@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-1
+  name: udn-project-1
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -9,7 +9,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-2
+  name: udn-project-2
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -17,7 +17,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-3
+  name: udn-project-3
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -25,7 +25,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-4
+  name: udn-project-4
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -33,7 +33,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-5
+  name: udn-project-5
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -41,7 +41,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-6
+  name: udn-project-6
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -49,7 +49,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-7
+  name: udn-project-7
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -57,7 +57,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-8
+  name: udn-project-8
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -65,7 +65,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-9
+  name: udn-project-9
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -73,7 +73,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-10
+  name: udn-project-10
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -81,7 +81,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-11
+  name: udn-project-11
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -89,7 +89,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-12
+  name: udn-project-12
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -97,7 +97,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-13
+  name: udn-project-13
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -105,7 +105,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-14
+  name: udn-project-14
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -113,7 +113,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-15
+  name: udn-project-15
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -121,7 +121,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-16
+  name: udn-project-16
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -129,7 +129,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-17
+  name: udn-project-17
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -137,7 +137,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-18
+  name: udn-project-18
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -145,7 +145,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-19
+  name: udn-project-19
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -153,7 +153,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-20
+  name: udn-project-20
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -161,7 +161,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-21
+  name: udn-project-21
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -169,7 +169,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-22
+  name: udn-project-22
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -177,7 +177,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-23
+  name: udn-project-23
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -185,7 +185,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-24
+  name: udn-project-24
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -193,7 +193,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-25
+  name: udn-project-25
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -201,7 +201,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-26
+  name: udn-project-26
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -209,7 +209,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-27
+  name: udn-project-27
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -217,7 +217,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-28
+  name: udn-project-28
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -225,7 +225,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-29
+  name: udn-project-29
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -233,7 +233,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-30
+  name: udn-project-30
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -241,7 +241,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-31
+  name: udn-project-31
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -249,7 +249,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-32
+  name: udn-project-32
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -257,7 +257,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-33
+  name: udn-project-33
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -265,7 +265,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-34
+  name: udn-project-34
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -273,7 +273,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-35
+  name: udn-project-35
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -281,7 +281,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-36
+  name: udn-project-36
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -289,7 +289,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-37
+  name: udn-project-37
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -297,7 +297,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-38
+  name: udn-project-38
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -305,7 +305,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-39
+  name: udn-project-39
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
@@ -313,7 +313,7 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: project-40
+  name: udn-project-40
   labels:
     k8s.ovn.org/primary-user-defined-network: "" 
 ---
