@@ -571,12 +571,12 @@ roleRef:
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: user39-poject39
-  namespace: project-39
+  name: user$i-poject$i
+  namespace: project-$i
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project39
+    name: user$i
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
