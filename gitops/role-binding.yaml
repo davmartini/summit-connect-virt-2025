@@ -1,3 +1,4 @@
+]633;E;for i in {1..40};a7c74694-47cb-45c7-8e09-ae26b1f5b86a]633;C
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
@@ -6,7 +7,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project1
+    name: user1
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -21,7 +22,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project2
+    name: user2
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -36,7 +37,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project3
+    name: user3
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -51,7 +52,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project4
+    name: user4
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -66,7 +67,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project5
+    name: user5
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -81,7 +82,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project6
+    name: user6
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -96,7 +97,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project7
+    name: user7
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -111,7 +112,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project8
+    name: user8
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -126,7 +127,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project9
+    name: user9
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -141,7 +142,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project10
+    name: user10
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -156,7 +157,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project11
+    name: user11
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -171,7 +172,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project12
+    name: user12
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -186,7 +187,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project13
+    name: user13
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -201,7 +202,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project14
+    name: user14
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -216,7 +217,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project15
+    name: user15
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -231,7 +232,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project16
+    name: user16
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -246,7 +247,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project17
+    name: user17
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -261,7 +262,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project18
+    name: user18
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -276,7 +277,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project19
+    name: user19
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -291,7 +292,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project20
+    name: user20
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -306,7 +307,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project21
+    name: user21
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -321,7 +322,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project22
+    name: user22
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -336,7 +337,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project23
+    name: user23
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -351,7 +352,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project24
+    name: user24
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -366,7 +367,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project25
+    name: user25
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -381,7 +382,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project26
+    name: user26
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -396,7 +397,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project27
+    name: user27
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -411,7 +412,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project28
+    name: user28
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -426,7 +427,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project29
+    name: user29
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -441,7 +442,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project30
+    name: user30
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -456,7 +457,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project31
+    name: user31
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -471,7 +472,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project32
+    name: user32
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -486,7 +487,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project33
+    name: user33
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -501,7 +502,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project34
+    name: user34
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -516,7 +517,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project35
+    name: user35
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -531,7 +532,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project36
+    name: user36
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -546,7 +547,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project37
+    name: user37
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -561,7 +562,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project38
+    name: user38
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -571,12 +572,12 @@ roleRef:
 kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: user$i-poject$i
-  namespace: project-$i
+  name: user39-poject39
+  namespace: project-39
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: user$i
+    name: user39
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
@@ -591,7 +592,7 @@ metadata:
 subjects:
   - kind: User
     apiGroup: rbac.authorization.k8s.io
-    name: project40
+    name: user40
 roleRef:
   apiGroup: rbac.authorization.k8s.io
   kind: ClusterRole
