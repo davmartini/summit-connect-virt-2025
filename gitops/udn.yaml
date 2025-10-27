@@ -1,4 +1,3 @@
-]633;E;for i in {1..40};35e9d33d-1d33-49db-9924-e50e0ebad7d4]633;C
 apiVersion: k8s.ovn.org/v1
 kind: UserDefinedNetwork
 metadata:
