@@ -27,9 +27,11 @@
  
 ## To Do le jour J
 - Déploiement du cluster (2h)
-- Upgrade du cluster de 4.18 en 4.19 (1h)
+- Upgrade du cluster de 4.18 en 4.19 (2h)
 - Mettre a jour le lien vers le cluster dans le guide
-- Installation de l'operateur GitOps
+- Installation de l'operateur Veeam Kaster
+- Déploiemen de k10
+- Annotation des StorageClass pour Kasten
 - Déploiement du reste via GitOps
 - Configuration du S3 dans Kasten 
 
