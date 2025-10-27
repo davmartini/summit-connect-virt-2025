@@ -6,7 +6,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -21,7 +21,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -36,7 +36,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -51,7 +51,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -66,7 +66,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -81,7 +81,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -96,7 +96,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -111,7 +111,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -126,7 +126,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -141,7 +141,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -156,7 +156,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -171,7 +171,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -186,7 +186,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -201,7 +201,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -216,7 +216,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -231,7 +231,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -246,7 +246,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -261,7 +261,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -276,7 +276,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -291,7 +291,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -306,7 +306,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -321,7 +321,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -336,7 +336,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -351,7 +351,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -366,7 +366,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -381,7 +381,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -396,7 +396,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -411,7 +411,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -426,7 +426,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -441,7 +441,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -456,7 +456,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -471,7 +471,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -486,7 +486,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -501,7 +501,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -516,7 +516,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -531,7 +531,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -546,7 +546,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -561,7 +561,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -576,7 +576,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
@@ -591,7 +591,7 @@ metadata:
 spec:
   topology: Layer2
   layer2:
-    role: Secondary
+    role: Primary
     subnets:
       - 192.168.1.0/24
     ipam:
