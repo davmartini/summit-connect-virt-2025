@@ -9,7 +9,7 @@
 - Installation et Intro - 15 mins - [Ready](https://docs.google.com/presentation/d/1nAb9fhzUfAiUU9NHX12mtKRguusiNnWjciTb6pQVEiQ/edit?usp=sharing)
 - Création et configuration de VM - 10 mins - Ready
 - Création d'un template de VM - 10 mins - Ready
-- Mise en place de VLAN externe - 10 mins - Not Ready
+- Mise en place de VLAN externe - 10 mins - Ready
 - Microsegmentation UDN & Network Policies - 10 - Not Ready
 - Load Aware Cluster Rebalancing - 15 mins - Ready
 - Backup restore avec Veeam Kasten - 15 mins - Not Ready
