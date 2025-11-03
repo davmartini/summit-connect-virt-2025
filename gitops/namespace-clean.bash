@@ -16,7 +16,7 @@ for i in $(seq 1 40); do
   NS_MTV="mtv-user$i"
   NS_OADP="oadp-user$i"
   NS_VMEX="vmexamples-user$i-udn"
-  NS_VMIP="vmiported-user$i"
+  NS_VMIP="vmimported-user$i"
 
   echo "Tentative de suppression des namespaces pour l'utilisateur $i :"
   echo "* $NS_MTV"
