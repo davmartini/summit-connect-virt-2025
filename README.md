@@ -55,3 +55,14 @@ https://epietry.github.io/openshift-virt-lab-05-11-2025/
 ``` 
 
 - Créer un bucket S3 dans le namespace Kasten-io créer un profile pour tout le monde dans kasten en tant qu'admin
+
+- Annotation des storage classe
+```
+oc annotate volumesnapshotclass \
+  ocs-external-storagecluster-rbdplugin-snapclass  \
+  k10.kasten.io/is-snapshot-class=true
+
+oc annotate volumesnapshotclass \
+  ocs-external-storagecluster-cephfsplugin-snapclass \
+  k10.kasten.io/is-snapshot-class=true
+```
