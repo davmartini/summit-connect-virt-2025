@@ -34,6 +34,7 @@
 - Annotation des StorageClass pour Kasten
 - Déploiement du reste via GitOps
 - Configuration du S3 dans Kasten 
+- Se connecter une premiere fois a Kasten en admin
 
 ## Lab Instructions
 https://epietry.github.io/openshift-virt-lab-05-11-2025/
