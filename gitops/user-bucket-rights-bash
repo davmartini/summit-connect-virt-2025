@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Le nom du ClusterRole qui définit la permission
+CLUSTER_ROLE_NAME="obc-creator"
+
+echo "--- Étape 1: Création du ClusterRole '${CLUSTER_ROLE_NAME}' ---"
+
+# Nous utilisons 'oc apply' pour que la commande soit idempotente (sûre à ré-exécuter)
+oc apply -f - <<EOF
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: ${CLUSTER_ROLE_NAME}
+rules:
+- apiGroups: ["objectbucket.io"]
+  resources: ["objectbucketclaims"]
+  verbs: ["*"] # Donne tous les droits: create, get, list, watch, delete, patch, update
+EOF
+
+echo "--- Étape 2: Création des 40 RoleBindings ---"
+
+for i in $(seq 1 40); do
+  UTILISATEUR="user$i"
+  NAMESPACE="project-$i"
+
+  echo "Application de la permission '${CLUSTER_ROLE_NAME}' à '$UTILISATEUR' dans le namespace '$NAMESPACE'..."
+
+  # Crée un RoleBinding dans le namespace qui lie le ClusterRole à l'utilisateur
+  oc adm policy add-role-to-user ${CLUSTER_ROLE_NAME} ${UTILISATEUR} -n ${NAMESPACE}
+
+  if [ $? -ne 0 ]; then
+    echo "ERREUR: Échec pour $UTILISATEUR dans $NAMESPACE."
+    echo "Vérifiez si le namespace '$NAMESPACE' existe."
+  fi
+done
+
+echo "Terminé. Les 40 utilisateurs ont maintenant la permission de créer des buckets dans leurs projets respectifs."

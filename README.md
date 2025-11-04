@@ -47,6 +47,10 @@ https://epietry.github.io/openshift-virt-lab-05-11-2025/
       enabled: true
       insecureCA: true
       openshiftURL: 'https://apiserver.openshift-kube-apiserver.svc.cluster.local'
+  route:
+    enabled: true
+    tls:
+      enabled: true
 ``` 
 
 - appliquer les yaml kasten user binding, kasten user group, kasten.bash et s3.bash pour permettre au user de se connecter a la plateforme, de voir leurs projets et d'accéder a un stockage S3
