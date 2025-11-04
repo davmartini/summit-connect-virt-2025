@@ -27,7 +27,8 @@
 ## To Do le jour J
 - Déploiement du cluster (2h)
 - Upgrade du cluster de 4.18 en 4.19 (2h)
-- Mettre a jour le lien vers le cluster dans le guide
+- Update de l'operateur OpenShift Virtualization en 4.19 et reload de l'interface si nécessaire
+- Mettre a jour le lien vers le cluster dans les mails
 - Installation de l'operateur Veeam Kaster
 - Déploiemen de k10
 - Annotation des StorageClass pour Kasten
