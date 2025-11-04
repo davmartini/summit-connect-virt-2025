@@ -1,7 +1,7 @@
 kind: ClusterRole
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
-  name: kasten-role-custom
+  name: kasten-custom-role
 rules:
   - verbs:
       - get
@@ -91,6 +91,19 @@ rules:
     apiGroups:
       - actions.kio.kasten.io
     resources:
+      - restoreclusteractions
+      - restoreclusteractions/details
+  - verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+    apiGroups:
+      - actions.kio.kasten.io
+    resources:
       - validateactions
       - validateactions/details
   - verbs:
@@ -119,19 +132,6 @@ rules:
     resources:
       - runactions
       - runactions/details
-  - verbs:
-      - get
-      - list
-      - watch
-      - create
-      - update
-      - patch
-      - delete
-    apiGroups:
-      - actions.kio.kasten.io
-    resources:
-      - batchrestoreactions
-      - batchrestoreactions/details
   - verbs:
       - get
       - list
@@ -187,14 +187,6 @@ rules:
       - get
       - list
       - watch
-    apiGroups:
-      - config.kio.kasten.io
-    resources:
-      - profiles
-  - verbs:
-      - get
-      - list
-      - watch
       - create
       - update
       - patch
@@ -202,4 +194,5 @@ rules:
     apiGroups:
       - config.kio.kasten.io
     resources:
-      - policy
+      - profiles
+

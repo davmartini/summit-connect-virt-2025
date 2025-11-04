@@ -1,560 +1,560 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user1
+  name: kasten-binding
   namespace: project-1
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user1
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user2
+  name: kasten-binding
   namespace: project-2
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user2
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user3
+  name: kasten-binding
   namespace: project-3
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user3
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user4
+  name: kasten-binding
   namespace: project-4
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user4
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user5
+  name: kasten-binding
   namespace: project-5
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user5
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user6
+  name: kasten-binding
   namespace: project-6
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user6
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user7
+  name: kasten-binding
   namespace: project-7
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user7
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user8
+  name: kasten-binding
   namespace: project-8
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user8
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user9
+  name: kasten-binding
   namespace: project-9
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user9
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user10
+  name: kasten-binding
   namespace: project-10
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user10
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user11
+  name: kasten-binding
   namespace: project-11
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user11
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user12
+  name: kasten-binding
   namespace: project-12
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user12
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user13
+  name: kasten-binding
   namespace: project-13
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user13
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user14
+  name: kasten-binding
   namespace: project-14
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user14
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user15
+  name: kasten-binding
   namespace: project-15
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user15
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user16
+  name: kasten-binding
   namespace: project-16
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user16
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user17
+  name: kasten-binding
   namespace: project-17
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user17
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user18
+  name: kasten-binding
   namespace: project-18
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user18
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user19
+  name: kasten-binding
   namespace: project-19
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user19
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user20
+  name: kasten-binding
   namespace: project-20
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user20
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user21
+  name: kasten-binding
   namespace: project-21
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user21
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user22
+  name: kasten-binding
   namespace: project-22
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user22
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user23
+  name: kasten-binding
   namespace: project-23
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user23
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user24
+  name: kasten-binding
   namespace: project-24
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user24
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user25
+  name: kasten-binding
   namespace: project-25
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user25
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user26
+  name: kasten-binding
   namespace: project-26
 subjects:
 - kind: User
-  name: user26
-  apiGroup: rba.authorization.k8s.io
-roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  name: user26
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user27
+  name: kasten-binding
   namespace: project-27
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user27
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user28
+  name: kasten-binding
   namespace: project-28
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user28
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user29
+  name: kasten-binding
   namespace: project-29
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user29
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user30
+  name: kasten-binding
   namespace: project-30
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user30
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user31
+  name: kasten-binding
   namespace: project-31
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user31
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
-apiVersion: rbac.authorization.k8s.io/vT
+apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user32
+  name: kasten-binding
   namespace: project-32
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user32
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user33
+  name: kasten-binding
   namespace: project-33
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user33
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user34
+  name: kasten-binding
   namespace: project-34
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user34
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user35
+  name: kasten-binding
   namespace: project-35
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user35
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user36
+  name: kasten-binding
   namespace: project-36
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user36
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user37
+  name: kasten-binding
   namespace: project-37
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user37
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user38
+  name: kasten-binding
   namespace: project-38
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user38
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user39
+  name: kasten-binding
   namespace: project-39
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user39
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: RoleBinding
 metadata:
-  name: kasten-custom-user40
+  name: kasten-binding
   namespace: project-40
 subjects:
 - kind: User
+  apiGroup: rbac.authorization.k8s.io
   name: user40
-  apiGroup: rbac.authorization.k8s.io
 roleRef:
-  kind: ClusterRole
-  name: kasten-role-custom
   apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: kasten-custom-role
 ---
