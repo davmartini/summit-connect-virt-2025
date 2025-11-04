@@ -53,6 +53,4 @@ https://epietry.github.io/openshift-virt-lab-05-11-2025/
       enabled: true
 ``` 
 
-- appliquer les yaml kasten user binding, kasten user group, kasten.bash et s3.bash pour permettre au user de se connecter a la plateforme, de voir leurs projets et d'accéder a un stockage S3
-
-- 
+- Créer un bucket S3 dans le namespace Kasten-io créer un profile pour tout le monde dans kasten en tant qu'admin
