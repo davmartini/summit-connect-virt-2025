@@ -191,3 +191,15 @@ rules:
       - config.kio.kasten.io
     resources:
       - profiles
+  - verbs:
+      - get
+      - list
+      - watch
+      - create
+      - update
+      - patch
+      - delete
+    apiGroups:
+      - config.kio.kasten.io
+    resources:
+      - policy
